@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod 7 Lesson 3</title>
+</head>
+<body>
+    <h1>Developer Information</h1>
+    <form action="/programming" method="post">
+
+        <fieldset>
+            <legend>Programming Preferences</legend>
+
+            <label for="language-preference">What is your preferred programming language? </label>
+            <select name="language-preference" id="language-preference">
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Ruby">Ruby</option>
+                <option value="C/C++">C/C++</option>
+                <option value="Java">Java</option>
+
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>Experience</legend>
+
+            <input type="radio" id="beginner" name="experience" value="beginner" required>
+            <label for="beginner">Beginner</label>
+
+            <input type="radio" id="intermediate" name="experience" value="intermediate" required>
+            <label for="intermediate">Intermediate</label>
+
+            <input type="radio" id="advanced" name="experience" value="advanced" required>
+            <label for="advanced">Advanced</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Preferred Development Platform</legend>
+
+            <input type="checkbox" id="web" name="platform" value="web">
+            <label for="web">Web</label>
+
+            <input type="checkbox" id="desktop" name="platform" value="desktop">
+            <label for="desktop">Desktop</label>
+
+            <input type="checkbox" id="mobile" name="platform" value="mobile">
+            <label for="mobile">Mobile</label>
+
+        </fieldset>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>

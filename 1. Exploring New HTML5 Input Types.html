@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod 7 Lesson 3</title>
+</head>
+<body>
+    <form action="/email" method="post">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter you email" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <form action="/number" method="post">
+
+        <label for="number">Number</label>
+        <input type="number" id="number" name="number" placeholder="Enter "  min="1" max="100" step="1" required>
+
+        <button type="submit">Submit</button>
+    </form>
+    
+    <form action="/date" method="post">
+
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" placeholder="Enter your date "  min="1" max="100" step="1" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <form action="/range" method="post">
+
+        <label for="range">Rating (1 to 10):</label>
+        <input type="range" id="range" name="range" min="1" max="10" step="1" value="5" required>
+        <output for="range" id="range-value">5</output>
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
